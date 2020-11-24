@@ -1,0 +1,4 @@
+[submodule "rk002-sequence-editor"]
+	path = rk002-sequence-editor
+	url = https://github.com/yuriizubkov/rk002-sequence-editor.git
+	branch = gh-pages
