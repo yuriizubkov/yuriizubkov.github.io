@@ -5,8 +5,6 @@ title: "Blog"
 tagline: "by Yurii Zubkov"
 layout: splash
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
   overlay_image: /assets/images/splash.jpg
   caption: "Eibsee. Bavaria."
 ---
