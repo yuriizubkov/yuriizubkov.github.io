@@ -8,6 +8,8 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 # navigate into the build output directory
 cd _site
+touch CNAME
+echo "lensflare.dev" >> CNAME
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
