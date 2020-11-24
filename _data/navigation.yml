@@ -1,0 +1,11 @@
+main:
+  - title: "Posts"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "RK-002"
+    url: "/rk002-sequence-editor"
+  - title: "About"
+    url: /about/
