@@ -9,5 +9,13 @@ tags:
   - Novation 
   - Circuit
 ---
-Article will be here soon, I promise... <br/>
-[Action Sequencer](/rk002-sequence-editor)
+
+That was interesting project for the cool guys from Retrokits.com:
+{% include video id="l-ySi74VDOQ" provider="youtube" %}
+
+All code and description is available on github, feel free to use, fork:
+
+[https://github.com/yuriizubkov/rk002-circuit-song-mode](https://github.com/yuriizubkov/rk002-circuit-song-mode)
+[https://github.com/yuriizubkov/rk002-sequence-editor](https://github.com/yuriizubkov/rk002-sequence-editor)
+
+[Live Sequence Editor](/rk002-sequence-editor)
