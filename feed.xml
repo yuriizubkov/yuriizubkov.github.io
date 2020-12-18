@@ -1,2 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://lensflare.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lensflare.dev/" rel="alternate" type="text/html" /><updated>2020-11-24T18:41:32+01:00</updated><id>https://lensflare.dev/feed.xml</id><title type="html">LENSFLARE.DEV</title><subtitle>Yet another developer blog, by Yurii Zubkov.</subtitle><author><name>Yurii Zubkov</name></author><entry><title type="html">RK002 + Novation Circuit = Song Mode</title><link href="https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode.html" rel="alternate" type="text/html" title="RK002 + Novation Circuit = Song Mode" /><published>2020-11-24T10:20:00+01:00</published><updated>2020-11-24T10:20:00+01:00</updated><id>https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode</id><content type="html" xml:base="https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode.html">&lt;p&gt;Article will be here soon, I promise… &lt;br /&gt;
-&lt;a href=&quot;/rk002-sequence-editor&quot;&gt;Action Sequencer&lt;/a&gt;&lt;/p&gt;</content><author><name>Yurii Zubkov</name></author><category term="Retrokits" /><category term="Retrokits" /><category term="RK002" /><category term="Novation" /><category term="Circuit" /><summary type="html">Retrokits RK002 as action sequencer for Novation Circuit. Can be useful for sessions chaining a.k.a Song Mode.</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://lensflare.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lensflare.dev/" rel="alternate" type="text/html" /><updated>2020-12-18T15:16:55+01:00</updated><id>https://lensflare.dev/feed.xml</id><title type="html">LENSFLARE.DEV</title><subtitle>Yet another developer blog, by Yurii Zubkov.</subtitle><author><name>Yurii Zubkov</name></author><entry><title type="html">Core MIDI Cheat Sheet</title><link href="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html" rel="alternate" type="text/html" title="Core MIDI Cheat Sheet" /><published>2020-12-18T14:38:00+01:00</published><updated>2020-12-18T14:38:00+01:00</updated><id>https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet</id><content type="html" xml:base="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html">&lt;p&gt;Made myself a cheat sheet of the Core MIDI functions. All functions and structure names are clickable in the PDF version. Maybe it could be useful to someone else.&lt;/p&gt;
+
+&lt;figure class=&quot; &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/Core-MIDI-Cheat-Sheet.png&quot; title=&quot;Core MIDI Cheat Sheet as PNG image&quot;&gt;
+          &lt;img src=&quot;/assets/images/Core-MIDI-Cheat-Sheet.png&quot; alt=&quot;Core MIDI Cheat Sheet - PNG&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;PNG version
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/files/Core-MIDI-Cheat-Sheet.pdf&quot; class=&quot;btn btn--primary&quot;&gt;Download PDF version&lt;/a&gt;
+&lt;a href=&quot;/assets/files/Core-MIDI-Cheat-Sheet.odg&quot; class=&quot;btn&quot;&gt;Download LibreOffice file&lt;/a&gt;&lt;/p&gt;</content><author><name>Yurii Zubkov</name></author><category term="Apple" /><category term="Apple" /><category term="iOS" /><category term="Mac OS" /><category term="Core MIDI" /><summary type="html">Cheat sheet for the main functions of the Apple's Core MIDI</summary></entry><entry><title type="html">RK002 + Novation Circuit = Song Mode</title><link href="https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode.html" rel="alternate" type="text/html" title="RK002 + Novation Circuit = Song Mode" /><published>2020-11-24T10:20:00+01:00</published><updated>2020-11-24T10:20:00+01:00</updated><id>https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode</id><content type="html" xml:base="https://lensflare.dev/retrokits/2020/11/24/rk002-circuit-song-mode.html">&lt;p&gt;That was interesting project for the cool guys from Retrokits.com:&lt;/p&gt;
+
+&lt;!-- Courtesy of embedresponsively.com //--&gt;
+
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/l-ySi74VDOQ&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+&lt;p&gt;All code and description is available on github, feel free to use, fork:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/yuriizubkov/rk002-circuit-song-mode&quot;&gt;https://github.com/yuriizubkov/rk002-circuit-song-mode&lt;/a&gt;
+&lt;a href=&quot;https://github.com/yuriizubkov/rk002-sequence-editor&quot;&gt;https://github.com/yuriizubkov/rk002-sequence-editor&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/rk002-sequence-editor&quot;&gt;Live Sequence Editor&lt;/a&gt;&lt;/p&gt;</content><author><name>Yurii Zubkov</name></author><category term="Retrokits" /><category term="Retrokits" /><category term="RK002" /><category term="Novation" /><category term="Circuit" /><summary type="html">Retrokits RK002 as action sequencer for Novation Circuit. Can be useful for sessions chaining a.k.a Song Mode.</summary></entry></feed>
