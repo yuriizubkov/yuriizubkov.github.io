@@ -100,6 +100,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yuriizubkov"
+    - label : "Privacy Policy"
+      icon: "fas fa-fw fa-user-shield"
+      url: "/privacy-policy"
 
 post_archive:
   type: liquid
