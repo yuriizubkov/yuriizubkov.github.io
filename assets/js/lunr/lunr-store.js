@@ -10,4 +10,10 @@ var store = [{
         "tags": ["Apple","iOS","Mac OS","Core MIDI"],
         "url": "https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html",
         "teaser": null
+      },{
+        "title": "RK006 Manager",
+        "excerpt":"Made an alternative companion application “RK006 Manager” for the RK006 MIDI/Gate hub from Retrokits. Supports dark and light system UI theme. Available on iPad, iPhone and Mac. And it is free.                                                                                                                                                                                                                                                  Screenshots       Download from Apple App Store  ","categories": ["Retrokits"],
+        "tags": ["Apple","iOS","Mac OS","Retrokits","RK006"],
+        "url": "https://lensflare.dev/retrokits/2021/03/21/rk006-manager-app.html",
+        "teaser": null
       }]

@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://lensflare.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lensflare.dev/" rel="alternate" type="text/html" /><updated>2021-03-17T15:44:27+01:00</updated><id>https://lensflare.dev/feed.xml</id><title type="html">LENSFLARE.DEV</title><subtitle>Yet another developer blog, by Yurii Zubkov.</subtitle><author><name>Yurii Zubkov</name></author><entry><title type="html">Core MIDI Cheat Sheet</title><link href="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html" rel="alternate" type="text/html" title="Core MIDI Cheat Sheet" /><published>2020-12-18T14:38:00+01:00</published><updated>2020-12-18T14:38:00+01:00</updated><id>https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet</id><content type="html" xml:base="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html">&lt;p&gt;Made myself a cheat sheet of the Core MIDI functions. All functions and structure names are clickable in the PDF version. Maybe it could be useful to someone else.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://lensflare.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://lensflare.dev/" rel="alternate" type="text/html" /><updated>2021-04-14T17:40:39+02:00</updated><id>https://lensflare.dev/feed.xml</id><title type="html">LENSFLARE.DEV</title><subtitle>Yet another developer blog, by Yurii Zubkov.</subtitle><author><name>Yurii Zubkov</name></author><entry><title type="html">RK006 Manager</title><link href="https://lensflare.dev/retrokits/2021/03/21/rk006-manager-app.html" rel="alternate" type="text/html" title="RK006 Manager" /><published>2021-03-21T19:00:00+01:00</published><updated>2021-03-21T19:00:00+01:00</updated><id>https://lensflare.dev/retrokits/2021/03/21/rk006-manager-app</id><content type="html" xml:base="https://lensflare.dev/retrokits/2021/03/21/rk006-manager-app.html">&lt;p&gt;Made an alternative companion application “RK006 Manager” for the RK006 MIDI/Gate hub from Retrokits.
+Supports dark and light system UI theme. Available on iPad, iPhone and Mac. And it is free.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/mac-port-dark.png&quot; title=&quot;Mac OS - Dark&quot;&gt;
+          &lt;img src=&quot;/assets/images/mac-port-dark.png&quot; alt=&quot;Mac OS - Dark&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/mac-port-light.png&quot; title=&quot;Mac OS - Light&quot;&gt;
+          &lt;img src=&quot;/assets/images/mac-port-light.png&quot; alt=&quot;Mac OS - Light&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/ipad-settings-dark.png&quot; title=&quot;iPad - Dark&quot;&gt;
+          &lt;img src=&quot;/assets/images/ipad-settings-dark.png&quot; alt=&quot;iPad - Dark&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/ipad-settings-light.png&quot; title=&quot;iPad - Light&quot;&gt;
+          &lt;img src=&quot;/assets/images/ipad-settings-light.png&quot; alt=&quot;iPad - Light&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/iphone-settings-dark.png&quot; title=&quot;iPhone - Dark&quot;&gt;
+          &lt;img src=&quot;/assets/images/iphone-settings-dark.png&quot; alt=&quot;iPhone - Dark&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/iphone-port-light.png&quot; title=&quot;iPhone - Light&quot;&gt;
+          &lt;img src=&quot;/assets/images/iphone-port-light.png&quot; alt=&quot;iPhone - Light&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Screenshots
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/de/app/rk006-manager/id1558573383?l=en&quot; class=&quot;btn btn--primary&quot;&gt;Download from Apple App Store&lt;/a&gt;&lt;/p&gt;</content><author><name>Yurii Zubkov</name></author><category term="Retrokits" /><category term="Apple" /><category term="iOS" /><category term="Mac OS" /><category term="Retrokits" /><category term="RK006" /><summary type="html">Alternative companion application for the RK006 MIDI/Gate hub.</summary></entry><entry><title type="html">Core MIDI Cheat Sheet</title><link href="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html" rel="alternate" type="text/html" title="Core MIDI Cheat Sheet" /><published>2020-12-18T14:38:00+01:00</published><updated>2020-12-18T14:38:00+01:00</updated><id>https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet</id><content type="html" xml:base="https://lensflare.dev/apple/2020/12/18/core-midi-cheat-sheet.html">&lt;p&gt;Made myself a cheat sheet of the Core MIDI functions. All functions and structure names are clickable in the PDF version. Maybe it could be useful to someone else.&lt;/p&gt;
 
 &lt;figure class=&quot; &quot;&gt;
   
