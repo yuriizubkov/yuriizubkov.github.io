@@ -16,4 +16,10 @@ var store = [{
         "tags": ["Apple","iOS","Mac OS","Retrokits","RK006"],
         "url": "https://lensflare.dev/retrokits/2021/03/21/rk006-manager-app.html",
         "teaser": null
+      },{
+        "title": "Online Circuit Patch Converter",
+        "excerpt":"Made a small web-based tool for fast conversion between Novation Circuit patches and Circuit Tracks patches (and vise versa). Patch files are actually the same, except SysEx MIDI Product ID byte, which I am swapping with this converter: Patch Packs from the original Circuit will be unpacked as a separate...","categories": ["Novation"],
+        "tags": ["Novation","Circuit","Circuit Tracks"],
+        "url": "https://lensflare.dev/novation/2021/04/27/circuit-patch-converter.html",
+        "teaser": null
       }]

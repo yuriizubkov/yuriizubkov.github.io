@@ -9,25 +9,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Year - LENSFLARE.DEV</title>
-<meta name="description" content="Yet another developer blog, by Yurii Zubkov.">
+<!-- begin _includes/seo.html --><title>Online Circuit Patch Converter - LENSFLARE.DEV</title>
+<meta name="description" content="Web-based tool for conversion of Novation Circuit patches">
 
 
   <meta name="author" content="Yurii Zubkov">
   
+  <meta property="article:author" content="Yurii Zubkov">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="LENSFLARE.DEV">
-<meta property="og:title" content="Posts by Year">
-<meta property="og:url" content="https://lensflare.dev/posts/">
+<meta property="og:title" content="Online Circuit Patch Converter">
+<meta property="og:url" content="https://lensflare.dev/novation/2021/04/27/circuit-patch-converter.html">
 
 
-  <meta property="og:description" content="Yet another developer blog, by Yurii Zubkov.">
-
-
-
+  <meta property="og:description" content="Web-based tool for conversion of Novation Circuit patches">
 
 
 
@@ -35,9 +34,14 @@
 
 
 
+  <meta property="article:published_time" content="2021-04-27T23:19:00+02:00">
 
 
-<link rel="canonical" href="https://lensflare.dev/posts/">
+
+
+
+
+<link rel="canonical" href="https://lensflare.dev/novation/2021/04/27/circuit-patch-converter.html">
 
 
 
@@ -99,7 +103,7 @@
 
   </head>
 
-  <body class="layout--posts">
+  <body class="layout--single">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -270,51 +274,18 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Online Circuit Patch Converter">
+    <meta itemprop="description" content="Web-based tool for conversion of Novation Circuit patches">
+    <meta itemprop="datePublished" content="2021-04-27T23:19:00+02:00">
     
-      <h1 id="page-title" class="page__title">Posts by Year</h1>
-    
-    
 
-
-<ul class="taxonomy__index">
-  
-  
-    <li>
-      <a href="#2021">
-        <strong>2021</strong> <span class="taxonomy__count">2</span>
-      </a>
-    </li>
-  
-    <li>
-      <a href="#2020">
-        <strong>2020</strong> <span class="taxonomy__count">2</span>
-      </a>
-    </li>
-  
-</ul>
-
-
-
-
-  <section id="2021" class="taxonomy__section">
-    <h2 class="archive__subtitle">2021</h2>
-    <div class="entries-list">
+    <div class="page__inner-wrap">
       
-        
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/novation/2021/04/27/circuit-patch-converter.html" rel="permalink">Online Circuit Patch Converter
-</a>
-      
-    </h2>
-    
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Online Circuit Patch Converter
+</h1>
+          
 
   <p class="page__meta">
     
@@ -341,17 +312,133 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">Web-based tool for conversion of Novation Circuit patches
-</p>
-  </article>
-</div>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Made a small web-based tool for fast conversion between Novation Circuit patches and Circuit Tracks patches (and vise versa).
+Patch files are actually the same, except SysEx MIDI Product ID byte, which I am swapping with this converter:</p>
+
+<p><img src="/assets/images/circuit-patches.jpeg" alt="Patch files diff" /></p>
+
+<p>Patch Packs from the original Circuit will be unpacked as a separate patch files, because there is no way of loading such files into the Novation Components for the Circuit Tracks.</p>
+
+<p>All files remain on your PC, converter works locally in your browser. There is no server-side code at all.</p>
+
+<p>As usual, all code is available on GitHub, feel free to use, fork:
+<a href="https://github.com/yuriizubkov/circuit-patch-converter">https://github.com/yuriizubkov/circuit-patch-converter</a></p>
+
+<p>Works in Chrome browser. <br />
+<a href="/circuit-patch-converter" class="btn btn--primary">Online Circuit Patch Converter</a></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#circuit-tracks" class="page__taxonomy-item" rel="tag">Circuit Tracks</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#circuit" class="page__taxonomy-item" rel="tag">Circuit</a><span class="sep">, </span>
+    
+      
+      
+      <a href="/tags/#novation" class="page__taxonomy-item" rel="tag">Novation</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/categories/#novation" class="page__taxonomy-item" rel="tag">Novation</a>
+    
+    </span>
+  </p>
+
+
+        
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2021-04-27T23:19:00+02:00">April 27, 2021</time></p>
+
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Online+Circuit+Patch+Converter%20https%3A%2F%2Flensflare.dev%2Fnovation%2F2021%2F04%2F27%2Fcircuit-patch-converter.html" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Flensflare.dev%2Fnovation%2F2021%2F04%2F27%2Fcircuit-patch-converter.html" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flensflare.dev%2Fnovation%2F2021%2F04%2F27%2Fcircuit-patch-converter.html" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
 
       
+  <nav class="pagination">
+    
+      <a href="/retrokits/2021/03/21/rk006-manager-app.html" class="pagination--pager" title="RK006 Manager
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+      <h4 class="page__comments-title">Comments</h4>
+      <section class="fb-comments" data-href="https://lensflare.dev/novation/2021/04/27/circuit-patch-converter.html" data-mobile="true" data-num-posts="5" data-width="100%" data-colorscheme="dark"></section>
+    
+</div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
         
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -366,7 +453,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         <time datetime="2021-03-21T19:00:00+01:00">March 21, 2021</time>
       </span>
     
@@ -378,7 +465,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           less than 1 minute read
         
@@ -392,20 +479,12 @@
   </article>
 </div>
 
-      
-    </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-  <section id="2020" class="taxonomy__section">
-    <h2 class="archive__subtitle">2020</h2>
-    <div class="entries-list">
-      
         
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -420,7 +499,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         <time datetime="2020-12-18T14:38:00+01:00">December 18, 2020</time>
       </span>
     
@@ -432,7 +511,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           less than 1 minute read
         
@@ -446,12 +525,12 @@
   </article>
 </div>
 
-      
         
+          
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -466,7 +545,7 @@
     
       
       <span class="page__meta-date">
-        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         <time datetime="2020-11-24T10:20:00+01:00">November 24, 2020</time>
       </span>
     
@@ -478,7 +557,7 @@
       
 
       <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
           less than 1 minute read
         
@@ -492,14 +571,13 @@
   </article>
 </div>
 
-      
+        
+      </div>
     </div>
-    <a href="#page-title" class="back-to-top">Back to Top &uarr;</a>
-  </section>
-
-
-  </div>
+  
+  
 </div>
+
     </div>
 
     
