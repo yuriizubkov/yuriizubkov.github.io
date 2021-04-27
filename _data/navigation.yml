@@ -7,5 +7,5 @@ main:
     url: /tags/
   - title: "RK-002"
     url: "/rk002-sequence-editor"
-  - title: "About"
-    url: /about/
+  - title: "CP Converter"
+    url: "/circuit-patch-converter"
