@@ -2,3 +2,7 @@
 	path = rk002-sequence-editor
 	url = https://github.com/yuriizubkov/rk002-sequence-editor.git
 	branch = gh-pages
+[submodule "circuit-patch-converter"]
+	path = circuit-patch-converter
+	url = https://github.com/yuriizubkov/circuit-patch-converter.git
+	branch = gh-pages
