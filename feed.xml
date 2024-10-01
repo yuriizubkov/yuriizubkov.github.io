@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://yuriizubkov.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yuriizubkov.github.io/" rel="alternate" type="text/html" /><updated>2024-10-01T13:44:51+02:00</updated><id>https://yuriizubkov.github.io/feed.xml</id><title type="html">DEVBLOG</title><subtitle>Yet another developer blog, by Yurii Zubkov.</subtitle><author><name>Yurii Zubkov</name></author><entry><title type="html">Online Circuit Patch Converter</title><link href="https://yuriizubkov.github.io/novation/2021/04/27/circuit-patch-converter.html" rel="alternate" type="text/html" title="Online Circuit Patch Converter" /><published>2021-04-27T23:19:00+02:00</published><updated>2021-04-27T23:19:00+02:00</updated><id>https://yuriizubkov.github.io/novation/2021/04/27/circuit-patch-converter</id><content type="html" xml:base="https://yuriizubkov.github.io/novation/2021/04/27/circuit-patch-converter.html"><![CDATA[<p>Made a small web-based tool for fast conversion between Novation Circuit patches and Circuit Tracks patches (and vise versa).
+Patch files are actually the same, except SysEx MIDI Product ID byte, which I am swapping with this converter:</p>
+
+<p><img src="/assets/images/circuit-patches.jpeg" alt="Patch files diff" /></p>
+
+<p>Patch Packs from the original Circuit will be unpacked as a separate patch files, because there is no way of loading such files into the Novation Components for the Circuit Tracks.</p>
+
+<p>All files remain on your PC, converter works locally in your browser. There is no server-side code at all.</p>
+
+<p>As usual, all code is available on GitHub, feel free to use, fork:
+<a href="https://github.com/yuriizubkov/circuit-patch-converter">https://github.com/yuriizubkov/circuit-patch-converter</a></p>
+
+<p>Works in Chrome browser. <br />
+<a href="/circuit-patch-converter" class="btn btn--primary">Online Circuit Patch Converter</a></p>]]></content><author><name>Yurii Zubkov</name></author><category term="Novation" /><category term="Novation" /><category term="Circuit" /><category term="Circuit Tracks" /><summary type="html"><![CDATA[Web-based tool for conversion of Novation Circuit patches]]></summary></entry><entry><title type="html">RK006 Manager</title><link href="https://yuriizubkov.github.io/retrokits/2021/03/21/rk006-manager-app.html" rel="alternate" type="text/html" title="RK006 Manager" /><published>2021-03-21T20:00:00+02:00</published><updated>2021-03-21T20:00:00+02:00</updated><id>https://yuriizubkov.github.io/retrokits/2021/03/21/rk006-manager-app</id><content type="html" xml:base="https://yuriizubkov.github.io/retrokits/2021/03/21/rk006-manager-app.html"><![CDATA[<p>Made an alternative companion application “RK006 Manager” for the RK006 MIDI/Gate hub from Retrokits.
+Supports dark and light system UI theme. Available on iPad, iPhone and Mac. And it is free.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/mac-port-dark.png" title="Mac OS - Dark">
+          <img src="/assets/images/mac-port-dark.png" alt="Mac OS - Dark" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/mac-port-light.png" title="Mac OS - Light">
+          <img src="/assets/images/mac-port-light.png" alt="Mac OS - Light" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/ipad-settings-dark.png" title="iPad - Dark">
+          <img src="/assets/images/ipad-settings-dark.png" alt="iPad - Dark" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/ipad-settings-light.png" title="iPad - Light">
+          <img src="/assets/images/ipad-settings-light.png" alt="iPad - Light" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/iphone-settings-dark.png" title="iPhone - Dark">
+          <img src="/assets/images/iphone-settings-dark.png" alt="iPhone - Dark" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/iphone-port-light.png" title="iPhone - Light">
+          <img src="/assets/images/iphone-port-light.png" alt="iPhone - Light" />
+      </a>
+    
+  
+  
+    <figcaption>Screenshots
+</figcaption>
+  
+</figure>
+
+<p><a href="https://apps.apple.com/de/app/rk006-manager/id1558573383?l=en" class="btn btn--primary">Download from Apple App Store</a></p>]]></content><author><name>Yurii Zubkov</name></author><category term="Retrokits" /><category term="Apple" /><category term="iOS" /><category term="Mac OS" /><category term="Retrokits" /><category term="RK006" /><summary type="html"><![CDATA[Alternative companion application for the RK006 MIDI/Gate hub.]]></summary></entry><entry><title type="html">Core MIDI Cheat Sheet</title><link href="https://yuriizubkov.github.io/apple/2020/12/18/core-midi-cheat-sheet.html" rel="alternate" type="text/html" title="Core MIDI Cheat Sheet" /><published>2020-12-18T15:38:00+02:00</published><updated>2020-12-18T15:38:00+02:00</updated><id>https://yuriizubkov.github.io/apple/2020/12/18/core-midi-cheat-sheet</id><content type="html" xml:base="https://yuriizubkov.github.io/apple/2020/12/18/core-midi-cheat-sheet.html"><![CDATA[<p>Made myself a cheat sheet of the Core MIDI functions. All functions and structure names are clickable in the PDF version. Maybe it could be useful to someone else.</p>
+
+<figure class=" ">
+  
+    
+      <a href="/assets/images/Core-MIDI-Cheat-Sheet.png" title="Core MIDI Cheat Sheet as PNG image">
+          <img src="/assets/images/Core-MIDI-Cheat-Sheet.png" alt="Core MIDI Cheat Sheet - PNG" />
+      </a>
+    
+  
+  
+    <figcaption>PNG version
+</figcaption>
+  
+</figure>
+
+<p><a href="/assets/files/Core-MIDI-Cheat-Sheet.pdf" class="btn btn--primary">Download PDF version</a>
+<a href="/assets/files/Core-MIDI-Cheat-Sheet.odg" class="btn">Download LibreOffice file</a></p>]]></content><author><name>Yurii Zubkov</name></author><category term="Apple" /><category term="Apple" /><category term="iOS" /><category term="Mac OS" /><category term="Core MIDI" /><summary type="html"><![CDATA[Cheat sheet for the main functions of the Apple's Core MIDI]]></summary></entry><entry><title type="html">RK002 + Novation Circuit = Song Mode</title><link href="https://yuriizubkov.github.io/retrokits/2020/11/24/rk002-circuit-song-mode.html" rel="alternate" type="text/html" title="RK002 + Novation Circuit = Song Mode" /><published>2020-11-24T11:20:00+02:00</published><updated>2020-11-24T11:20:00+02:00</updated><id>https://yuriizubkov.github.io/retrokits/2020/11/24/rk002-circuit-song-mode</id><content type="html" xml:base="https://yuriizubkov.github.io/retrokits/2020/11/24/rk002-circuit-song-mode.html"><![CDATA[<p>That was interesting project for the cool guys from Retrokits.com:</p>
+
+<!-- Courtesy of embedresponsively.com -->
+
+<div class="responsive-video-container">
+    <iframe src="https://www.youtube-nocookie.com/embed/l-ySi74VDOQ" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+  </div>
+
+<p>All code and description is available on github, feel free to use, fork:</p>
+
+<p><a href="https://github.com/yuriizubkov/rk002-circuit-song-mode">https://github.com/yuriizubkov/rk002-circuit-song-mode</a>
+<a href="https://github.com/yuriizubkov/rk002-sequence-editor">https://github.com/yuriizubkov/rk002-sequence-editor</a></p>
+
+<p><a href="/rk002-sequence-editor">Live Sequence Editor</a></p>]]></content><author><name>Yurii Zubkov</name></author><category term="Retrokits" /><category term="Retrokits" /><category term="RK002" /><category term="Novation" /><category term="Circuit" /><summary type="html"><![CDATA[Retrokits RK002 as action sequencer for Novation Circuit. Can be useful for sessions chaining a.k.a Song Mode.]]></summary></entry></feed>
