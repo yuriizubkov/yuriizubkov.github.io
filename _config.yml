@@ -20,13 +20,13 @@
 
 include: ["_pages"]
 
-title: LENSFLARE.DEV
+title: DEVBLOG
 subtitle: "Yet another developer blog"
 email: zubkovyuriy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Yet another developer blog, by Yurii Zubkov.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lensflare.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yuriizubkov.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "yuriizubkov/yuriizubkov.github.io"
 github_username: yuriizubkov
 search: true
@@ -37,12 +37,6 @@ author:
   bio      : " " #"Developer"
   location : "Bavaria, Germany"
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/yurii.zubkov.3"
-    - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCxJfdVHFSMBHdHfZGCjjZ1Q"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yuriizubkov"
@@ -82,21 +76,8 @@ defaults:
       layout: single
       author_profile: false
 
-comments:
-  provider: "facebook"
-  facebook:
-    appid: 922845634789836 # optional
-    num_posts: 5 # 5 (default)
-    colorscheme: "dark" # "light" (default), "dark"
-
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/yurii.zubkov.3"
-    - label: "Youtube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/channel/UCxJfdVHFSMBHdHfZGCjjZ1Q"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yuriizubkov"
